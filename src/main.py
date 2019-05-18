@@ -5,6 +5,8 @@ from encapsulation.animal import Animal
 
 # from classes_and_objects import variable
 
+from inheritance.employee import Employee
+
 # Stage 1, Intro
 
 person = Person("Jane")
@@ -28,3 +30,9 @@ dog.display_info()
 dog.__age = -10 # Setting from outside
 # dog.set_age(-20)
 dog.display_info()
+
+# Stage 3, Inheritance
+employee = Employee("Tom", 24)
+employee.display_info()
+
+employee.details("ISTC Center", 1200)

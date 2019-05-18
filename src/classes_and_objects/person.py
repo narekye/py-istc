@@ -11,5 +11,5 @@ class Person:
 
     # Destructor for the instance
     def __del__(self):
-        print("Person with", self.name, " was removed from the memory")
+        print("Person with name", self.name, "was removed from the memory!!")
 

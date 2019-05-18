@@ -26,4 +26,4 @@ class Animal:
         return self.__name
 
     def display_info(self):
-        print("Name: ", self.__name, "Age: ", self.__age)
+        print("Name:", self.__name, "|", "Age:", self.__age)
